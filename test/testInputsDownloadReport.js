@@ -1,7 +1,7 @@
 'use strict';
 
 var assert = require('assert')
-  , opr = require('../lib/downloadReport')
+  , opdl = require('../lib/downloadReport')
   ;
 
 describe('opoint - inputs - downloadReport', function(){
@@ -15,7 +15,7 @@ describe('opoint - inputs - downloadReport', function(){
       }
       ;
 
-    opr(opts, function(err, data){
+    opdl(opts, function(err, data){
       assert.throws(function(){
           if(err) throw err;
         }, function(err){
@@ -40,7 +40,7 @@ describe('opoint - inputs - downloadReport', function(){
       }
       ;
 
-    opr(opts, function(err, data){
+    opdl(opts, function(err, data){
       assert.throws(function(){
           if(err) throw err;
         }, function(err){
@@ -65,7 +65,7 @@ describe('opoint - inputs - downloadReport', function(){
       }
       ;
 
-    opr(opts, function(err, data){
+    opdl(opts, function(err, data){
       assert.throws(function(){
           if(err) throw err;
         }, function(err){
