@@ -9,7 +9,7 @@ describe('opoint - inputs - downloadReport', function(){
   it('Should throw if fileName is not specified', function(done){
 
     var opts = {
-        filename:false,
+        fileName:false,
         session: true,
         opointJar: true
       }
@@ -34,7 +34,7 @@ describe('opoint - inputs - downloadReport', function(){
   it('Should throw if session is not specified', function(done){
 
     var opts = {
-        filename:true,
+        fileName:true,
         session: false,
         opointJar: true
       }
@@ -59,7 +59,7 @@ describe('opoint - inputs - downloadReport', function(){
   it('Should throw if opointJar is not specified', function(done){
 
     var opts = {
-        filename:true,
+        fileName:true,
         session: true,
         opointJar: false
       }
