@@ -1,0 +1,35 @@
+{
+  "name": "opoint-report",
+  "description": "Create reports in Opoint's monitor solution",
+  "version": "0.0.1",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*.js"
+  },
+  "keywords": [
+    "opoint",
+    "report"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zrrrzzt/opoint-report.git"
+  },
+  "bugs": {
+    "url": "http://github.com/zrrrzzt/opoint-report/issues"
+  },
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "request": "^2.42.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
