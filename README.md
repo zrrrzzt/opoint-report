@@ -2,6 +2,26 @@
 
 Node.js module for creating and downloading reports from Opoint's [monitor solution](http://monitor2.opoint.com/)
 
+##Installation
+Use [npm](https://www.npmjs.org/)
+
+```
+$ npm install opoint-report
+```
+
+##Test
+Make sure you have [Mocha](https://www.npmjs.org/package/mocha) installed.
+
+```
+$ npm test
+```
+
+##Usage
+
+You can create and download reports.
+
+At the moment download is limited to the latest report created. That might change in future versions.
+
 ##Create report
 Creates a new report
 
