@@ -41,7 +41,7 @@ Required params
 
 
 ```
-var opoint = require('opint-report')
+var opoint = require('opoint-report')
   , loginOpts = {
     username: 'MyUserName',
     password: 'MyTopSecretPassword'
