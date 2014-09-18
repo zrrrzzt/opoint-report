@@ -1,6 +1,6 @@
 {
   "name": "opoint-report",
-  "description": "Create reports in Opoint's monitor solution",
+  "description": "Create and download reports from Opoint's monitor solution",
   "version": "0.0.1",
   "author": {
     "name": "Geir Gåsodden",
